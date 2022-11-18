@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Cursed Timer ULiL;
+  src: url(assets/fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1c2945;
+  text-align: center;
+  width: 100vw;
+  height: 90vh;
+  margin: 0;
+}
+
+.team-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  margin: 0 0 1rem 0;
+  color: #eeeeee;
+  size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score-wrapper {
+  width: 7rem;
+  height: 6em;
+  background: #080001;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 1rem 0;
+}
+
+.lead-team {
+  outline: 0.2rem dashed #fbbf24;
+}
+
+.score-h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Cursed Timer ULiL;
+  color: #f94f6d;
+  font-size: 4rem;
+}
+
+.btn-row-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7rem;
+}
+
+.points-btn {
+  font-family: Cursed Timer ULiL;
+  font-size: 0.8rem;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  background: none;
+  margin: 0;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.period-wrapper {
+  width: 6rem;
+  height: 3em;
+  background: #080001;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 1rem 0;
+}
+
+.period-h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: Cursed Timer ULiL;
+  color: #f94f6d;
+}
+
+#new-game-btn {
+  font-family: Cursed Timer ULiL;
+  font-size: 1rem;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  background: none;
+  padding: 0.4rem 0.4rem;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0c4a6e;
+  margin: 0;
+}
+
+#footer-h3 {
+  margin: 0;
+}
